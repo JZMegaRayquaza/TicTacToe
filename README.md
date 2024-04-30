@@ -15,12 +15,12 @@ To get started with the Tic Tac Toe game, follow these instructions:
 
 1. **Clone the repository:** 
     ```
-    git clone https://github.com/your-username/tic-tac-toe.git
+    git clone https://github.com/JZMegaRayquaza/TicTacToe.git
     ```
 
 2. **Install the required dependencies:** 
     ```
-    pip install -r requirements.txt
+    pip install pygame
     ```
 
 ### Usage
@@ -29,15 +29,15 @@ To get started with the Tic Tac Toe game, follow these instructions:
 2. Run one of the Python files based on the game mode you want to play:
    - For Player vs Player: 
      ```
-     python player_vs_player.py
+     python tic_tac_toe.py
      ```
    - For Player vs CPU: 
      ```
-     python player_vs_cpu.py
+     python tic_tac_toe_cpu.py
      ```
    - For CPU vs CPU: 
      ```
-     python cpu_vs_cpu.py
+     python tic_tac_toe_cpu_cpu.py
      ```
 
 ## How to Play
