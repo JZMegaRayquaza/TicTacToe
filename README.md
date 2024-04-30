@@ -1,6 +1,6 @@
 # Tic Tac Toe Game
 
-This repository contains a simple Tic Tac Toe game implemented in Python using the Pygame library. There are three different game modes available: player vs player, player vs CPU, and CPU vs CPU.
+This repository contains a simple Tic Tac Toe game implemented in Python using the Pygame library. There are three different game modes available: Player vs Player, Player vs CPU, and CPU vs CPU.
 
 ## Getting Started
 
@@ -13,17 +13,32 @@ To get started with the Tic Tac Toe game, follow these instructions:
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. **Clone the repository:** 
+    ```
+    git clone https://github.com/your-username/tic-tac-toe.git
+    ```
 
-2. Install the required dependencies using pip:
+2. **Install the required dependencies:** 
+    ```
+    pip install -r requirements.txt
+    ```
 
 ### Usage
 
 1. Navigate to the directory where you cloned the repository.
 2. Run one of the Python files based on the game mode you want to play:
-   - For player vs player: `python tic_tac_toe.py`
-   - For player vs CPU: `python tic_tac_toe_cpu.py`
-   - For CPU vs CPU: `python tic_tac_toe_cpu_cpu.py`
+   - For Player vs Player: 
+     ```
+     python player_vs_player.py
+     ```
+   - For Player vs CPU: 
+     ```
+     python player_vs_cpu.py
+     ```
+   - For CPU vs CPU: 
+     ```
+     python cpu_vs_cpu.py
+     ```
 
 ## How to Play
 
